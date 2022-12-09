@@ -1,6 +1,8 @@
 # LeetCode
 Collection of LeetCode questions!
 
+Due to [LeetHub](https://github.com/QasimWani/LeetHub) has been crashed, not all solutions are located here, check my LeetCode profile.
+
 #### My profile: [MikhailLipanin](https://leetcode.com/MikhailLipanin/)
 
 #### Solved Problems
