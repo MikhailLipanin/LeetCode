@@ -5,7 +5,7 @@ Due to [LeetHub](https://github.com/QasimWani/LeetHub) has been crashed, not all
 
 #### My profile: [MikhailLipanin](https://leetcode.com/MikhailLipanin/)
 
-#### Solved Problems
+#### Solved Problems:
 
 ![](https://badges.peiyuan.ch/leetcode/MikhailLipanin/solved)
 ![](https://badges.peiyuan.ch/leetcode/MikhailLipanin/solved?difficulty=easy)
