@@ -3,9 +3,10 @@ func permute(nums []int) [][]int {
     var run func(int, []int, []bool)
     run = func(id int, tmp []int, vis []bool) {
         if id == len(nums) {
-            curr := make([]int, len(nums))
-            copy(curr, tmp)
-            ans = append(ans, curr)
+            // curr := make([]int, len(nums))
+            // copy(curr, tmp)
+            // ans = append(ans, curr)
+            ans = append(ans, append([]int(nil), tmp...))
             return
         }
         for i := 0; i < len(nums); i++ {
