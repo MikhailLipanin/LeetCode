@@ -1,41 +1,22 @@
-type pair struct {
-    sortedStr string
-    baseStr   string
-}
+type Key [26]int
 
 func groupAnagrams(strs []string) [][]string {
-    arr := make([]*pair, len(strs))
-    for i, str := range strs {
-        arr[i] = &pair{
-            sortedStr : SortString(str),
-            baseStr   : str,
-        }
+    mp := make(map[Key][]string)
+    for _, str := range strs {
+        currKey := getStrKey(str)
+        mp[currKey] = append(mp[currKey], str)
     }
-    sort.Slice(arr, func(i, j int) bool {
-        return arr[i].sortedStr < arr[j].sortedStr
-    })
-    var (
-        last = ""
-        ans  = make([][]string, 0)
-        curr = make([]string, 0)
-    )
-    for i := 0; i < len(arr); i++ {
-        if arr[i].sortedStr == last {
-            curr = append(curr, arr[i].baseStr)
-        } else {
-            if len(curr) > 0 {
-                ans = append(ans, curr)
-            }
-            curr = []string{arr[i].baseStr}
-            last = arr[i].sortedStr
-        }
+    ans := make([][]string, 0, len(mp))
+    for _, now := range mp {
+        ans = append(ans, now)
     }
-    ans = append(ans, curr)
     return ans
 }
 
-func SortString(w string) string {
-    s := strings.Split(w, "")
-    sort.Strings(s)
-    return strings.Join(s, "")
+func getStrKey(s string) Key {
+    var ret Key
+    for _, c := range s {
+        ret[c - 'a']++
+    }
+    return ret
 }
