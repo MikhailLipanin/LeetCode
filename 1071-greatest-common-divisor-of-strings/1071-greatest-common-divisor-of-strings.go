@@ -27,10 +27,3 @@ func gcdOfStrings(str1 string, str2 string) string {
     }
     return str1[:maxPrefix]
 }
-
-func min(x, y int) int {
-    if x < y {
-        return x
-    }
-    return y
-}
