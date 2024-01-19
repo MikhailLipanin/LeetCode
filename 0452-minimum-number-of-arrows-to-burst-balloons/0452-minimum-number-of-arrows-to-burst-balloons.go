@@ -2,7 +2,6 @@ func findMinArrowShots(points [][]int) int {
     sort.Slice(points, func(i, j int) bool {
         return points[i][0] < points[j][0]
     })
-    fmt.Println(points)
     ans := 1
     curr := points[0]
     for i := 1; i < len(points); i++ {
