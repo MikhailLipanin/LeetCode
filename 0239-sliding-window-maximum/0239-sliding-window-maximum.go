@@ -12,7 +12,7 @@ func NewSparseTable(arr []int) *SparseTable {
 		table[i][0] = arr[i]
 	}
 
-	for j := 1; (1 << j) <= n; j++ {
+	for j := 1; j <= m; j++ {
 		for i := 0; i+(1<<j)-1 < n; i++ {
 			table[i][j] = max(table[i][j-1], table[i+(1<<(j-1))][j-1])
 		}
