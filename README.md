@@ -17,6 +17,7 @@ Not all solutions are located here, check my LeetCode profile.
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/MikhailLipanin/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/MikhailLipanin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Hash Table
 |  |
@@ -34,4 +35,8 @@ Not all solutions are located here, check my LeetCode profile.
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/MikhailLipanin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+## Binary Search
+|  |
+| ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/MikhailLipanin/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
