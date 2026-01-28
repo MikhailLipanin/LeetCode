@@ -28,6 +28,7 @@ Not all solutions are located here, check my LeetCode profile.
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/MikhailLipanin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0445-add-two-numbers-ii](https://github.com/MikhailLipanin/LeetCode/tree/master/0445-add-two-numbers-ii) |
 ## Design
 |  |
 | ------- |
@@ -41,4 +42,12 @@ Not all solutions are located here, check my LeetCode profile.
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/MikhailLipanin/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MikhailLipanin/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+## Linked List
+|  |
+| ------- |
+| [0445-add-two-numbers-ii](https://github.com/MikhailLipanin/LeetCode/tree/master/0445-add-two-numbers-ii) |
+## Stack
+|  |
+| ------- |
+| [0445-add-two-numbers-ii](https://github.com/MikhailLipanin/LeetCode/tree/master/0445-add-two-numbers-ii) |
 <!---LeetCode Topics End-->
